@@ -5,6 +5,7 @@
 
 <script>
 import PrimeiroComponente from './components/PrimeiroComponente.vue';
+import LifeCycle from './ '
 
   export default {
       name: 'App',
