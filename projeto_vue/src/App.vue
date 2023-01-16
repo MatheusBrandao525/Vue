@@ -31,6 +31,12 @@ import Header from './components/Header.vue'
 
 <style>
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
   body {
     background-color: #333;
     color: #fff;
@@ -40,8 +46,6 @@ import Header from './components/Header.vue'
     color: #f25;
   }
 
-  img{
-    border-radius: 50%;
-  }
+
 
 </style>

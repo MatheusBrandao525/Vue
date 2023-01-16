@@ -12,4 +12,10 @@ export default{
         }
     }
 }
-</script>
+</script>]
+
+<style scoped>
+  img{
+    border-radius: 50%;
+  }
+</style>

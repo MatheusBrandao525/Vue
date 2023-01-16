@@ -1,8 +1,12 @@
 <template>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+          
     <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Tecnologias</a></li>
-        <Picture/>
+        <li class="imgAvatar">
+            <Picture/>
+        </li>
         <li><a href="#">Formação</a></li>
         <li><a href="#">Projetos</a></li>
     </ul>
@@ -20,13 +24,15 @@ import Picture from './Picture.vue'
 
 <style scoped>
     ul {
+        margin-top: 1rem;
         list-style: none;
         display: flex;
         height: 160px;
-        justify-content: space-evenly;
+        justify-content: space-around;
         box-shadow: 0 0.1rem 0.8rem rgb(0 0 0 / 40%);
         align-items: center;
     }
+
 
     a {
         color: #DDD;
@@ -38,11 +44,12 @@ import Picture from './Picture.vue'
 
     a:hover {
         color: 	#3CB371;
+        box-shadow: 0 0.1rem 0.8rem rgba(17, 201, 145, 0.4);
     }
 
     img {
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
         border: 0.80rem solid 	#3CB371;
     }
 

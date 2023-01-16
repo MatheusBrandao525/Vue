@@ -5,17 +5,50 @@
 
         <p>utilizo as seguintes tecnologias:</p>
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>PHP</li>
-            <li>MySQL</li>
-            <li>MongoDB</li>
-            <li>Flutter</li>
-            <li>React</li>
-            <li>Bootstrap</li>
-            <li>Vue.js</li>
-            <li>Node.js</li>
+            <li>
+                <img class="imgTecnologias" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                <h3>HTML</h3>
+            </li>
+            <li>
+                <img class="imgTecnologias" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                <h3>CSS</h3>
+            </li>
+            <li>
+                <img class="imgTecnologias" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                <h3>JavaScript</h3>
+            </li>
+            <li>
+                <img class="imgTecnologias" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" /> 
+                <h3>PHP </h3>
+            </li>
+            <li>
+                <img class="imgTecnologias" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+                <h3>MySQL</h3>
+            </li>
+            <li>
+                <img class="imgTecnologias" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+                <h3>MongoDB</h3>
+            </li>
+            <li>
+                <img class="imgTecnologias" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" />
+                <h3>Flutter</h3>        
+            </li>
+            <li>
+                <img class="imgTecnologias" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                <h3>React</h3>
+            </li>
+            <li>
+                <img class="imgTecnologias" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                <h3>Bootstrap</h3>        
+            </li>
+            <li>
+                <img class="imgTecnologias" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
+                <h3>Vue.js</h3>   
+            </li>
+            <li>
+                <img class="imgTecnologias" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                <h3>Node.js</h3>
+            </li>
         </ul>
 
         <div>
@@ -56,3 +89,34 @@
         }
     }
 </script>
+
+
+<style scoped>
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 160px;
+    margin: 2rem 0;
+    box-shadow: 0 0.1rem 0.8rem rgba(21, 24, 23, 0.4);
+}
+
+li{
+    list-style: none;
+    display: block;
+}
+
+h3{
+    text-align:center;
+}
+
+.imgTecnologias{
+    width: 100px;
+
+}
+
+img{
+    border-radius: none !important;
+}
+</style>

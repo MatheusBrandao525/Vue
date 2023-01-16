@@ -1,5 +1,8 @@
 <template>
-    <h1>Bem-vindo!</h1>
+    <div class="bemvindo">
+        <h1>Bem-vindo!</h1>
+    </div>
+
     <p>Meu nome é: {{ nome }}, e sou {{ profissao }}</p>
 </template>
 
@@ -18,10 +21,14 @@
 
 <style scoped>
     h1, p {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
         width: 100%;
-        text-align: center;
+    }
+
+    .bemvindo{
+        margin-top: 1rem;
+        text-align: center !important;
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
     }
 </style>
