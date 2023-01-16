@@ -19,17 +19,25 @@
         </ul>
 
         <p v-show="mostrar_email">Mande uma menssagem para : {{ email }}</p>
+        <p>Este é o link para meu portfólio: <a v-bind:href="meu_portfolio" target="_blank">clique aqui!</a></p>
+        <Picture/>
     </div>
 </template>
 
 <script>
+    import Picture from './Picture.vue';
+
     export default {
         name: 'Info',
+        components: {
+            Picture
+        },
         data() {
             return {
                 esta_trabalhando: false,
                 mostrar_email: true,
-                email: 'brandao.matheus.dev@gmail.com'
+                email: 'brandao.matheus.dev@gmail.com',
+                meu_portfolio: 'https://brandaodev.com.br'
             }
         }
     }
