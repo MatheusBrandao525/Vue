@@ -1,11 +1,12 @@
 <template>
-    <form action="">
+    <div class="formulario">
+        <form action="">
         <div>
-            <InputText/>
+            <InputText placeholder="Nome"/>
         </div>
 
         <div>
-            <InputText/>
+            <InputText placeholder="Email"/>
         </div>
 
         <div>
@@ -13,6 +14,8 @@
         </div>
 
     </form>
+    </div>
+
 </template>
 
 <script>
@@ -27,3 +30,14 @@ export default{
     }
 }
 </script>
+
+
+<style scoped>
+    .formulario{ 
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+</style>

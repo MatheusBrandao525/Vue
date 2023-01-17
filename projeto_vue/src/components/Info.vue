@@ -1,9 +1,11 @@
 <template>
     <div>
         <p v-if="esta_trabalhando">Estou Trabalhando.</p>
-        <p v-else>Estou buscando uma oportunidade.</p>
+        <p v-else class="umaOportunidade">🚀  Estou buscando uma oportunidade.  🚀</p>
 
-        <p>utilizo as seguintes tecnologias:</p>
+        <div class="centro">
+            <p class="bordaInferior">utilizo as seguintes tecnologias:</p>
+        </div>
         <ul>
             <li>
                 <img class="imgTecnologias" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
@@ -51,11 +53,11 @@
             </li>
         </ul>
 
-        <div>
+        <div class="botao">
             <button @click="mostrar">{{ textoBotao }}</button>
         </div>
         
-        <p v-show="mostrar_email">Mande uma menssagem para : {{ email }}</p>
+        <p v-show="mostrar_email">Mande uma menssagem para : <strong>{{ email }}</strong></p>
         <p>Este é o link para meu portfólio: <a v-bind:href="meu_portfolio" target="_blank">clique aqui!</a></p>
     </div>
 </template>
@@ -111,12 +113,57 @@ h3{
     text-align:center;
 }
 
+p{
+    font-size: 1.4rem;
+    text-align: center;    
+}
+
+.bordaInferior{
+    width: 450px;
+    height: 40px;
+    border-bottom: 5px solid #3CB371; 
+}
+
 .imgTecnologias{
     width: 100px;
 
 }
 
+.centro{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.umaOportunidade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3CB371;
+    height: 80px;
+}
+
 img{
     border-radius: none !important;
+}
+
+button{
+    background-color: #333;
+    border: 1px solid #3CB371;
+    width: 130px;
+    height: 40px;
+    color: #3CB371;
+    padding: 0.50rem;
+    border-radius: 5px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+strong{
+    color:#3CB371;
 }
 </style>

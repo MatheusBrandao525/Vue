@@ -1,7 +1,6 @@
 <template>
   <Header/>
   <PrimeiroComponente/>
-  <p>O estado da aplicação é: {{ testando }}</p>
   <LifeCycle/>
   <Pessoa />
 </template>
@@ -20,11 +19,6 @@ import Header from './components/Header.vue'
         LifeCycle,
         Pessoa
       },
-      data() {
-        return {
-          testando: 'Teste'
-        }
-      }
     }
 </script>
 

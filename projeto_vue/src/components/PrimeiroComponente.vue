@@ -2,25 +2,17 @@
     <div class="bemvindo">
         <h1>Bem-vindo!</h1>
     </div>
-
-    <p>Meu nome é: {{ nome }}, e sou {{ profissao }}</p>
 </template>
 
 <script>
     export default {
         name: 'PrimeiroComponente',
-        data() {
-            return {
-                 nome: 'Matheus',
-                 profissao: 'Programador'
-            }
-        }
     
     }
 </script>
 
 <style scoped>
-    h1, p {
+    h1{
         width: 100%;
     }
 

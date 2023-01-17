@@ -33,6 +33,10 @@ import Picture from './Picture.vue'
         align-items: center;
     }
 
+    li {
+        height: auto;
+    }
+
 
     a {
         color: #DDD;
@@ -40,10 +44,13 @@ import Picture from './Picture.vue'
         transition: .5s;
         font-size: 1.5rem;
         font-weight: bold;
+        border-radius: 10px;
+        padding: 0.5rem;
     }
 
     a:hover {
-        color: 	#3CB371;
+        color: 	#213f2f;
+        background-color: #3CB371;
         box-shadow: 0 0.1rem 0.8rem rgba(17, 201, 145, 0.4);
     }
 

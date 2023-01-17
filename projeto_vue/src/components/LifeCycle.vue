@@ -1,5 +1,5 @@
 <template>
-    <h1>Meu nome: {{ nome }}</h1>
+    <h1>Sou o {{ nome }}</h1>
 </template>
 
 <script>
@@ -8,7 +8,7 @@
         name: "LifeCycle",
         data() {
             return {
-                nome: 'Matheus'
+                nome: 'Matheus F. Brandão'
             }
         },
 
@@ -19,3 +19,11 @@
         }
     }
 </script>
+
+
+<style scoped>
+    h1{
+        text-align: center;
+        margin-top: 1rem;
+    }
+</style> 
