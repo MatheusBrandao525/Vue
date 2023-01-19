@@ -6,7 +6,7 @@
         </div>
 
         <div>
-            <InputText placeholder="Email"/>
+            <InputEmail placeholder="Email"/>
         </div>
 
         <div>
@@ -21,11 +21,13 @@
 <script>
 import InputText from './form/InputText.vue';
 import Submit from './form/Submit.vue';
+import InputEmail from './form/InputEmail.vue';
 
 export default{
     name: 'Form',
     components: {
         InputText,
+        InputEmail,
         Submit
     }
 }

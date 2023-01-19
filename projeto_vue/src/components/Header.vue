@@ -1,8 +1,8 @@
-<template>
+<template id="home">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
           
     <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#">Tecnologias</a></li>
         <li class="imgAvatar">
             <Picture/>

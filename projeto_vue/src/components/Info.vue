@@ -57,8 +57,7 @@
             <button @click="mostrar">{{ textoBotao }}</button>
         </div>
         
-        <p v-show="mostrar_email">Mande uma menssagem para : <strong>{{ email }}</strong></p>
-        <p>Este é o link para meu portfólio: <a v-bind:href="meu_portfolio" target="_blank">clique aqui!</a></p>
+        <p v-show="mostrar_email">Este é o link para meu portfólio: <a v-bind:href="meu_portfolio" target="_blank">clique aqui!</a></p>
     </div>
 </template>
 
@@ -76,16 +75,16 @@
                 mostrar_email: false,
                 email: 'brandao.matheus.dev@gmail.com',
                 meu_portfolio: 'https://brandaodev.com.br',
-                textoBotao: 'Mostrar email'
+                textoBotao: 'Link protfólio'
             }
         },
         methods: {
             mostrar() {
                 this.mostrar_email = !this.mostrar_email
                 if(!this.mostrar_email){
-                    this.textoBotao = 'Mostrar email'
+                    this.textoBotao = 'Link portfólio'
                 }else{
-                    this.textoBotao = 'Esconder email'
+                    this.textoBotao = 'Esconder link'
                 }
             }
         }
@@ -155,6 +154,12 @@ button{
     color: #3CB371;
     padding: 0.50rem;
     border-radius: 5px;
+}
+
+button:hover{
+    background-color: #3CB371;
+    color: #333; 
+    font-weight: bold; 
 }
 
 .botao{
