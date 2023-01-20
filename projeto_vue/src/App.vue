@@ -4,14 +4,16 @@
   <LifeCycle/>
   <Pessoa />
   <Formacao/>
+  <Projetos/>
 </template>
 
 <script>
 import PrimeiroComponente from './components/PrimeiroComponente.vue';
-import LifeCycle from './components/LifeCycle.vue'
-import Pessoa from './components/Pessoa.vue'
+import LifeCycle from './components/LifeCycle.vue';
+import Pessoa from './components/Pessoa.vue';
 import Formacao from './components/Formacao.vue';
-import Header from './components/Header.vue'
+import Header from './components/Header.vue';
+import Projetos from './components/Projetos.vue';
 
   export default {
       name: 'App',
@@ -20,7 +22,8 @@ import Header from './components/Header.vue'
         PrimeiroComponente,
         LifeCycle,
         Pessoa,
-        Formacao
+        Formacao,
+        Projetos
       },
     }
 </script>
@@ -45,6 +48,18 @@ import Header from './components/Header.vue'
   a {
     color: #f25;
   }
+
+  .row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 350px;
+    height: 400px;
+    background: #3CB371;
+    margin-bottom: 2rem;
+}
 
 
 
