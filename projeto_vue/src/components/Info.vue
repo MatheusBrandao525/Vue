@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="tecnologias">
         <p v-if="esta_trabalhando">Estou Trabalhando.</p>
         <p v-else class="umaOportunidade">🚀  Estou buscando uma oportunidade.  🚀</p>
 

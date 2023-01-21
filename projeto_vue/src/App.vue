@@ -2,7 +2,10 @@
   <Header/>
   <PrimeiroComponente/>
   <LifeCycle/>
-  <Pessoa />
+  <div class="background">
+    <Pessoa />
+
+  </div>
   <Formacao/>
   <Projetos/>
 </template>
@@ -38,6 +41,7 @@ import Projetos from './components/Projetos.vue';
   padding: 0;
   box-sizing: border-box;
   font-family: 'Kalam', cursive;
+  scroll-behavior: smooth;
 }
 
   body {

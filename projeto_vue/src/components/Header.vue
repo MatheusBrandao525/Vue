@@ -3,12 +3,12 @@
           
     <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#">Tecnologias</a></li>
+        <li><a href="#tecnologias">Tecnologias</a></li>
         <li class="imgAvatar">
             <Picture/>
         </li>
-        <li><a href="#">Formação</a></li>
-        <li><a href="#">Projetos</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#projetos">Projetos</a></li>
     </ul>
 </template>
 

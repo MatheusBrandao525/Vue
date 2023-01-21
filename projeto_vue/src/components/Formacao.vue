@@ -1,5 +1,5 @@
 <template>
-    <div class="centro">
+    <div class="centro" id="formacao">
         <h1>Certificados</h1>
     </div>
 
