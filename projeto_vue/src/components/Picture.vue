@@ -7,7 +7,7 @@ export default{
     name: 'Picture',
     data() {
         return {    
-            avatar: '/img/avatar.jpg',
+            avatar: '/img/PERFIL.jpg',
             descricao: 'Matheus F. Brandão'
         }
     }

@@ -60,6 +60,13 @@ li{
     list-style: none;
 }
 
+i:hover{
+    width: auto;
+    height:auto;
+    border-radius: 50%;
+    box-shadow: 0 0.2rem 0.9rem rgba(12 148 96 / 70%);
+}
+
 p{
     margin-top: 2rem;
     text-align: center;
