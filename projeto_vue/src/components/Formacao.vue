@@ -41,8 +41,9 @@
             <h3>Certificado um</h3>  
         </div>
         <div class="card">
-            <img src="https://image.freepik.com/vetores-gratis/vitrine-de-vidro-cubo-de-plastico-transparente-produto-vazio-ou-exposicao-de-museu-em-forma-de-bloco-com-holofotes-carrinho-de-prisma-para-conjunto-de-vetores-de-exposicao-prisma-de-ilustracao-no-centro-das-atencoes-vitrine-de-exibicao_102902-3478.jpg" alt="">  
-            <h3>EM BREVE</h3>
+                <img src="https://media.licdn.com/dms/image/C4D22AQFL4qpQJ3FzLg/feedshare-shrink_1280/0/1674351543706?e=1677110400&v=beta&t=1g2V4CmE-j7dlmklKdNFksyRr0QEfm6-jlDcpmMjtRQ" alt="">
+<!--             <img src="https://image.freepik.com/vetores-gratis/vitrine-de-vidro-cubo-de-plastico-transparente-produto-vazio-ou-exposicao-de-museu-em-forma-de-bloco-com-holofotes-carrinho-de-prisma-para-conjunto-de-vetores-de-exposicao-prisma-de-ilustracao-no-centro-das-atencoes-vitrine-de-exibicao_102902-3478.jpg" alt="">  
+ -->            <h3>EM BREVE</h3>
         </div>
     </div>
 </template>
@@ -82,6 +83,12 @@ h3{
     height: 400px;
     background: #3CB371;
     margin-bottom: 2rem;
+}
+
+.card:hover{
+    
+    justify-content: center;
+    scale: 1.4;
 }
 
 img{
