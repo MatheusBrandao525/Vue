@@ -31,12 +31,27 @@
                 <h3>Projeto 03</h3>
             </div>
         </div>
+        <div class="row">
+            <div class="card">
+                <img src="https://image.freepik.com/vetores-gratis/vitrine-de-vidro-cubo-de-plastico-transparente-produto-vazio-ou-exposicao-de-museu-em-forma-de-bloco-com-holofotes-carrinho-de-prisma-para-conjunto-de-vetores-de-exposicao-prisma-de-ilustracao-no-centro-das-atencoes-vitrine-de-exibicao_102902-3478.jpg" alt="">
+                <h3>Projeto 01</h3>
+            </div>
+            <div class="card">
+                <img src="https://image.freepik.com/vetores-gratis/vitrine-de-vidro-cubo-de-plastico-transparente-produto-vazio-ou-exposicao-de-museu-em-forma-de-bloco-com-holofotes-carrinho-de-prisma-para-conjunto-de-vetores-de-exposicao-prisma-de-ilustracao-no-centro-das-atencoes-vitrine-de-exibicao_102902-3478.jpg" alt="">
+                <h3>Projeto 02</h3>    
+            </div>
+            <div class="card">
+                <img src="https://image.freepik.com/vetores-gratis/vitrine-de-vidro-cubo-de-plastico-transparente-produto-vazio-ou-exposicao-de-museu-em-forma-de-bloco-com-holofotes-carrinho-de-prisma-para-conjunto-de-vetores-de-exposicao-prisma-de-ilustracao-no-centro-das-atencoes-vitrine-de-exibicao_102902-3478.jpg" alt="">  
+                <h3>Projeto 03</h3>
+            </div>
+        </div>
 
 
     </div>
         
     <div class="bullets">
         <div @click="passarProjetos" class="bullet-single active-bullet"></div>
+        <div @click="passarProjetos" class="bullet-single"></div>
         <div @click="passarProjetos" class="bullet-single"></div>
     </div>
 
