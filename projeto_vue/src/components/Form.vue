@@ -1,6 +1,10 @@
 <template>
     <div class="formulario">
+
         <form action="">
+            <div>
+                <h3>Entrar em Contato</h3>
+            </div>
         <div>
             <InputText placeholder="Nome"/>
         </div>

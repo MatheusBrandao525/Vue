@@ -8,6 +8,7 @@
   </div>
   <Formacao/>
   <Projetos/>
+  <Footer/>
 </template>
 
 <script>
@@ -17,6 +18,7 @@ import Pessoa from './components/Pessoa.vue';
 import Formacao from './components/Formacao.vue';
 import Header from './components/Header.vue';
 import Projetos from './components/Projetos.vue';
+import Footer from './components/Footer.vue';
 
   export default {
       name: 'App',
@@ -26,7 +28,8 @@ import Projetos from './components/Projetos.vue';
         LifeCycle,
         Pessoa,
         Formacao,
-        Projetos
+        Projetos,
+        Footer
       },
     }
 </script>

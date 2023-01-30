@@ -53,11 +53,11 @@
             </li>
         </ul>
 
-        <div class="botao">
+<!--         <div class="botao">
             <button @click="mostrar">{{ textoBotao }}</button>
         </div>
         
-        <p v-show="mostrar_email">Este é o link para meu portfólio: <a v-bind:href="meu_portfolio" target="_blank">clique aqui!</a></p>
+        <p v-show="mostrar_email">Este é o link para meu portfólio: <a v-bind:href="meu_portfolio" target="_blank">clique aqui!</a></p> -->
     </div>
 </template>
 
@@ -79,14 +79,14 @@
             }
         },
         methods: {
-            mostrar() {
+/*             mostrar() {
                 this.mostrar_email = !this.mostrar_email
                 if(!this.mostrar_email){
                     this.textoBotao = 'Link portfólio'
                 }else{
                     this.textoBotao = 'Esconder link'
                 }
-            }
+            } */
         }
     }
 </script>
