@@ -146,6 +146,9 @@ img{
     border-radius: 10px;
     background-color: rgb(108, 124, 122);
 }
-
+.card:hover {
+  justify-content: center;
+  scale: 1.5;
+}
 
 </style>

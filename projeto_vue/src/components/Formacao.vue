@@ -169,10 +169,7 @@ h3 {
   margin-bottom: 2rem;
 }
 
-.card1:hover {
-  justify-content: center !important;
-  scale: 1;
-}
+
 
 p {
   text-align: center;
@@ -215,4 +212,6 @@ img {
   border-radius: 10px;
   background-color: rgb(108, 124, 122);
 }
+
+
 </style>
