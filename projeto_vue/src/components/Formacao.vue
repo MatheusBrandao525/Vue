@@ -13,7 +13,7 @@
         <h3>Bootcamp FullStack</h3>
         <p>Iniciando Bootcamp Spread FullStack Developer.</p>
       </div>
-      <div class="card1">
+      <div  class="card1">
         <img
           src="https://udemy-certificate.s3.amazonaws.com/image/UC-faf2004e-3f2a-4178-b3ea-900ec3e130bc.jpg?v=1668271680000"
           alt=""
@@ -21,7 +21,7 @@
         <h3>MySQL</h3>
         <p>Especialização em modelagem de banco de dados com MySQL.</p>
       </div>
-      <div class="card1">
+      <div  class="card1">
         <img
           src="https://media.licdn.com/dms/image/C4D22AQEVU1rLIjiD9g/feedshare-shrink_1280/0/1639390188466?e=1677110400&v=beta&t=_quzpWzhtQDln_DUvmWhDltkuqxHsJvpugu_aehva3I"
           alt=""
@@ -31,7 +31,7 @@
       </div>
     </div>
     <div class="row1">
-      <div class="card1">
+      <div class="card2">
         <img
           src="https://media.licdn.com/dms/image/C4E22AQGkN0_Ns2ILYw/feedshare-shrink_1280/0/1634870676800?e=1677110400&v=beta&t=HpB3hZIVBIUC42rJtMZKlMufDu8uLyY8TGepQlnAT3w"
           alt=""
@@ -39,7 +39,7 @@
         <h3>PHP Orientado a Objetos</h3>
         <p>Especialização em PHP Orientado a Objetos com banco de dados.</p>
       </div>
-      <div class="card1">
+      <div class="card2">
         <img
           src="https://media.licdn.com/dms/image/C4E22AQFVeZcFq6tp5Q/feedshare-shrink_1280/0/1634751470266?e=1677110400&v=beta&t=S5FQXVUxrP9clXOF16067BuOL6BXB13MZvvaqAaHb7A"
           alt=""
@@ -47,7 +47,7 @@
         <h3>PHP Funções e Validações</h3>
         <p>Especialização em funções de validção de dados com PHP.</p>
       </div>
-      <div class="card1">
+      <div class="card2">
         <img
           src="https://media.licdn.com/dms/image/C4E22AQG9SFdAFTSc7A/feedshare-shrink_1280/0/1634751363345?e=1677110400&v=beta&t=b4j1hAGRy7DNGnkksU4jPZ_YOjGWfKrMPONensO_m8A"
           alt=""
@@ -60,7 +60,7 @@
       </div>
     </div>
     <div class="row1">
-      <div class="card1">
+      <div class="card3">
         <img
           src="https://hermes.digitalinnovation.one/certificates/cover/8EBCD5D4.jpg"
           alt=""
@@ -68,7 +68,7 @@
         <h3>JavaScript</h3>
         <p>Especialização em javascript para desenvolvimento web moderno.</p>
       </div>
-      <div class="card1">
+      <div class="card3">
         <img
           src="https://hermes.digitalinnovation.one/certificates/cover/4A3D3D63.jpg"
           alt=""
@@ -79,7 +79,7 @@
           Bootstrap.
         </p>
       </div>
-      <div class="card1">
+      <div class="card3">
         <img
           src="https://media.licdn.com/dms/image/C4D22AQFL4qpQJ3FzLg/feedshare-shrink_1280/0/1674351543706?e=1677110400&v=beta&t=1g2V4CmE-j7dlmklKdNFksyRr0QEfm6-jlDcpmMjtRQ"
           alt=""
@@ -135,7 +135,11 @@ export default {
           });
       });
     },
+
   },
+
+
+
 };
 </script>
 
@@ -162,25 +166,13 @@ h3 {
   justify-content: space-evenly;
 }
 
-.card1 {
-  width: 350px;
-  height: 400px;
-  background: #3cb371;
-  margin-bottom: 2rem;
-}
-
-<<<<<<< HEAD
-=======
-
-
->>>>>>> b1071b0eff570095d14e0f4be0586763725a1e42
 p {
   text-align: center;
 }
 
 img {
   width: 100%;
-  height: 250px;
+  height: 350px;
 }
 
 .container1 {
@@ -198,7 +190,7 @@ img {
 }
 
 .bullets {
-  margin-bottom: 1rem;
+  margin: 2rem 0;
   text-align: center;
 }
 
@@ -216,5 +208,16 @@ img {
   background-color: rgb(108, 124, 122);
 }
 
+.card1,.card2,.card3 {
+  width: 550px;
+  height: 500px;
+  background: #3cb371;
+  margin-bottom: 2rem;
+}
+
+
+.card1:hover {
+  transform:scale(2) !important;
+}
 
 </style>
