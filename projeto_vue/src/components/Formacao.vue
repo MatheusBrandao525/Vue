@@ -169,11 +169,6 @@ h3 {
   margin-bottom: 2rem;
 }
 
-.card1:hover {
-  justify-content: center !important;
-  scale: 1;
-}
-
 p {
   text-align: center;
 }
