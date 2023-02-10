@@ -169,6 +169,11 @@ h3 {
   margin-bottom: 2rem;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> b1071b0eff570095d14e0f4be0586763725a1e42
 p {
   text-align: center;
 }
@@ -210,4 +215,6 @@ img {
   border-radius: 10px;
   background-color: rgb(108, 124, 122);
 }
+
+
 </style>

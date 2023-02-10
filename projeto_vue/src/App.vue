@@ -69,5 +69,17 @@ import Footer from './components/Footer.vue';
 }
 
 
+.card1 {
+  width: 350px;
+  height: 400px;
+  background: #3cb371;
+  margin-bottom: 2rem;
+}
+
+
+.card1:hover {
+  justify-content: center;
+  transform:scale(1.5);
+}
 
 </style>
